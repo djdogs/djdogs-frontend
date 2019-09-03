@@ -1,0 +1,22 @@
+.DogItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  border: 2px solid rgb(23, 23, 23);
+  background: rgb(186, 186, 186);
+  width: 200px;
+  margin: 5px;
+  position: relative;
+
+  img {
+    width: 100px;
+  }
+
+  button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+  }
+}
